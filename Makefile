@@ -1,6 +1,6 @@
 obj-m := pagetree.o
 
-KDIR ?= $(abspath ../../linux)
+KDIR ?= $(abspath ./linux)
 PWD  := $(shell pwd)
 
 all:
